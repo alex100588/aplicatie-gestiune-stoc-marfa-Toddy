@@ -28,6 +28,27 @@ const testRow = document.querySelector('.testRow ')
 const calculareTotal = document.querySelector('.calculareTotal')
 const calculareTotal2 = document.querySelector('.calculareTotal2')
 const calculareTotal3 = document.querySelector('.calculareTotal3')
+const calculareTotal4 = document.querySelector('.calculareTotal4')
+const calculareTotal5 = document.querySelector('.calculareTotal5')
+const calculareTotal6 = document.querySelector('.calculareTotal6')
+const calculareTotal7 = document.querySelector('.calculareTotal7')
+const calculareTotal8 = document.querySelector('.calculareTotal8')
+const calculareTotal9 = document.querySelector('.calculareTotal9')
+const calculareTotal10 = document.querySelector('.calculareTotal10')
+const calculareTotal11 = document.querySelector('.calculareTotal11')
+const calculareTotal12 = document.querySelector('.calculareTotal12')
+const calculareTotal13 = document.querySelector('.calculareTotal13')
+const calculareTotal14 = document.querySelector('.calculareTotal14')
+const calculareTotal15 = document.querySelector('.calculareTotal15')
+const calculareTotal16 = document.querySelector('.calculareTotal16')
+const calculareTotal17 = document.querySelector('.calculareTotal17')
+const calculareTotal18 = document.querySelector('.calculareTotal18')
+const calculareTotal19 = document.querySelector('.calculareTotal19')
+const calculareTotal20 = document.querySelector('.calculareTotal20')
+const calculareTotal21 = document.querySelector('.calculareTotal21')
+const calculareTotal22 = document.querySelector('.calculareTotal22')
+const calculareTotal23 = document.querySelector('.calculareTotal23')
+const calculareTotal24 = document.querySelector('.calculareTotal24')
 // console.log(btn);
 // console.log(Number(calculareTotal.innerHTML));
 // console.log(num);
@@ -64,6 +85,7 @@ const calculateTotal2 = ()=>{
       calculareTotal2.textContent = total
    }
 }
+
 let items3 =[];
 const calculateTotal3 = ()=>{
    
@@ -80,12 +102,125 @@ const calculateTotal3 = ()=>{
    }
 }
 
+let items4 =[];
+const calculateTotal4 = ()=>{
+   
+   let total = 0
+   
+   let boxvalue = input4.value
+   items4.push(+boxvalue)
+   for (let i = 0; i < items4.length; i++) {
+      // console.log(items[i]);
+      total+=items4[i]
+     
+      // console.log(total);
+      calculareTotal4.textContent = total
+   }
+}
+let items5 =[];
+const calculateTotal5 = ()=>{
+   
+   let total = 0
+   
+   let boxvalue = input5.value
+   items5.push(+boxvalue)
+   for (let i = 0; i < items5.length; i++) {
+      // console.log(items[i]);
+      total+=items5[i]
+     
+      // console.log(total);
+      calculareTotal5.textContent = total
+   }
+}
+let items6 =[];
+const calculateTotal6 = ()=>{
+   
+   let total = 0
+   
+   let boxvalue = input6.value
+   items6.push(+boxvalue)
+   for (let i = 0; i < items6.length; i++) {
+      // console.log(items[i]);
+      total+=items6[i]
+     
+      // console.log(total);
+      calculareTotal6.textContent = total
+   }
+}
+let items7 =[];
+const calculateTotal7 = ()=>{
+   
+   let total = 0
+   
+   let boxvalue = input7.value
+   items7.push(+boxvalue)
+   for (let i = 0; i < items7.length; i++) {
+      // console.log(items[i]);
+      total+=items7[i]
+     
+      // console.log(total);
+      calculareTotal7.textContent = total
+   }
+}
+let items8 =[];
+const calculateTotal8 = ()=>{
+   
+   let total = 0
+   
+   let boxvalue = input8.value
+   items8.push(+boxvalue)
+   for (let i = 0; i < items8.length; i++) {
+      // console.log(items[i]);
+      total+=items8[i]
+     
+      // console.log(total);
+      calculareTotal8.textContent = total
+   }
+}
+let items9 =[];
+const calculateTotal9 = ()=>{
+   
+   let total = 0
+   
+   let boxvalue = input9.value
+   items9.push(+boxvalue)
+   for (let i = 0; i < items9.length; i++) {
+      // console.log(items[i]);
+      total+=items9[i]
+     
+      // console.log(total);
+      calculareTotal9.textContent = total
+   }
+}
+let items10 =[];
+const calculateTotal10 = ()=>{
+   
+   let total = 0
+   
+   let boxvalue = input10.value
+   items10.push(+boxvalue)
+   for (let i = 0; i < items10.length; i++) {
+      // console.log(items[i]);
+      total+=items10[i]
+     
+      // console.log(total);
+      calculareTotal10.textContent = total
+   }
+}
+
 
 btn.addEventListener('click', ()=>{
    
    calculateTotal()
    calculateTotal2()
    calculateTotal3()
+   calculateTotal4()
+   calculateTotal5()
+   calculateTotal6()
+   calculateTotal7()
+   calculateTotal8()
+   calculateTotal9()
+   calculateTotal10()
 
    const html = `
    <tr class="text-center">
