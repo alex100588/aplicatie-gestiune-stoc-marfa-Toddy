@@ -26,28 +26,66 @@ const input23 = document.querySelector('.input23 input');
 const btn = document.querySelector('.btn')
 const testRow = document.querySelector('.testRow ')
 const calculareTotal = document.querySelector('.calculareTotal')
+const calculareTotal2 = document.querySelector('.calculareTotal2')
+const calculareTotal3 = document.querySelector('.calculareTotal3')
 // console.log(btn);
 // console.log(Number(calculareTotal.innerHTML));
 // console.log(num);
-var items =[];
 
+
+
+let items =[]; 
 const calculateTotal = ()=>{
    let total = 0
-   let boxvalue = document.querySelector('.input1 input').value;
+   
+   let boxvalue = input1.value
    items.push(+boxvalue)
    for (let i = 0; i < items.length; i++) {
       // console.log(items[i]);
       total+=items[i]
-      console.log(total);
+      
+      // console.log(total);
       calculareTotal.textContent = total
+   }
+}
+
+let items2 =[];
+const calculateTotal2 = ()=>{
+   
+   let total = 0
+   
+   let boxvalue = input2.value
+   items2.push(+boxvalue)
+   for (let i = 0; i < items2.length; i++) {
+      // console.log(items[i]);
+      total+=items2[i]
+     
+      // console.log(total);
+      calculareTotal2.textContent = total
+   }
+}
+let items3 =[];
+const calculateTotal3 = ()=>{
+   
+   let total = 0
+   
+   let boxvalue = input3.value
+   items3.push(+boxvalue)
+   for (let i = 0; i < items3.length; i++) {
+      // console.log(items[i]);
+      total+=items3[i]
+     
+      // console.log(total);
+      calculareTotal3.textContent = total
    }
 }
 
 
 btn.addEventListener('click', ()=>{
-   // calculareTotal.textContent += items.map(i => i)
    
    calculateTotal()
+   calculateTotal2()
+   calculateTotal3()
 
    const html = `
    <tr class="text-center">
